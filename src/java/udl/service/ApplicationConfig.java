@@ -8,10 +8,7 @@ package udl.service;
 import java.util.Set;
 import javax.ws.rs.core.Application;
 
-/**
- *
- * @author adri
- */
+
 @javax.ws.rs.ApplicationPath("webresources")
 public class ApplicationConfig extends Application {
 
