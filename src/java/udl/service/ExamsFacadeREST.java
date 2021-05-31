@@ -25,10 +25,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import udl.Exams;
 
-/**
- *
- * @author adri
- */
+
 @Stateless
 @Path("udl.exams")
 public class ExamsFacadeREST extends AbstractFacade<Exams> {
