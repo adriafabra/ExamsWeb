@@ -26,10 +26,7 @@ import udl.Grades;
 import udl.GradesPK;
 import udl.Students;
 
-/**
- *
- * @author adri
- */
+
 @Stateless
 @Path("udl.grades")
 public class GradesFacadeREST extends AbstractFacade<Grades> {
