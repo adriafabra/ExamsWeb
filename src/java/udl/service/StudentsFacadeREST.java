@@ -20,10 +20,7 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import udl.Students;
 
-/**
- *
- * @author adri
- */
+
 @Stateless
 @Path("udl.students")
 public class StudentsFacadeREST extends AbstractFacade<Students> {
